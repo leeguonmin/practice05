@@ -14,10 +14,6 @@ public class GoodsApp {
 		camera.show();
 		cup.show();
 		
-
-		
-		
-		
 		
 	}
 

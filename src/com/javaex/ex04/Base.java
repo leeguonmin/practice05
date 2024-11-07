@@ -25,3 +25,21 @@ public class Base {
     
 }
 
+
+
+
+
+
+
+
+
+//public void service(String state) {
+//    // state 값에 따라 적절한 메서드를 호출
+//    if (state.equals("낮")) {
+//        day();
+//    } else if (state.equals("밤")) {
+//        night();
+//    } else if (state.equals("오후")) {
+//        afternoon();
+//    }
+//}

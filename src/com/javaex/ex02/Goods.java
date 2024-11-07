@@ -5,9 +5,15 @@ public class Goods {
 	private String name;
 	private int price;
 	
+	// 기본 생성자 추가해야 Goods camera = new Goods(); 부분에 오류 안남 
+	public Goods() {
+		
+	}
+	
 	public Goods(String name, int price) {
 		this.name = name;
 		this.price = price;
+		
 	}
 	
 	
