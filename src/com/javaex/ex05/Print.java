@@ -4,25 +4,34 @@ public class Print {
 	
 	
 	// 매소드 세개
-	private int i;
-	private String t;
-	private double o;
-	private String name;
+	private int x;
 	
-	public point(int , int y) {
+	public void print (int x) {	// void를 추가해서 초기화시킨다는걸 알려줘야하ㅣㅁ? 보이드 뭐야
 		// 초기화
 		this.x = x;
-		this.x = y;
 	}
 	
-	
+
 	
     public void printer(int val){
         System.out.println(val);
     }
+    
+    public void printer(boolean val) {
+    	System.out.println(val);
+    }
+    
+    public void printer(double val) {
+    	System.out.println(val);
+    }
+    
+    public void printer(String val) {
+    	System.out.println(val);
+    };
 
     
 }
+
 
 
 
