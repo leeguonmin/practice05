@@ -16,7 +16,6 @@ public class Goods {
 		
 	}
 	
-	
 	public String getName() {
 		return name;
 	}
