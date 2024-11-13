@@ -13,6 +13,7 @@ public class Member {
 	}
 	
 	
+	
 	public String getname() {
 		return name;
 	}
