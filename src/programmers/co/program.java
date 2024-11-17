@@ -9,6 +9,7 @@ public class program {
         String a = sc.next();
         
 
+        
         for (int i = 0; i<a.length(); ++i) {
             if(Character.isLowerCase(a)) {
                 System.out.println(Character.toUpperCase(a));
