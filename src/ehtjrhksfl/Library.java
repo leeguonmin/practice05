@@ -34,7 +34,6 @@ CREATE TABLE books (
     location_id INT
 	isbn VARCHAR(200)
 	category_id INT
-	
     FOREIGN KEY (category_id) REFERENCES categories(category_id),
     FOREIGN KEY (publisher_id) REFERENCES publishers(publisher_id)
 );
@@ -46,6 +45,7 @@ CREATE TABLE categories (
     name VARCHAR(50)
     // 카테고리 이름
 );
+
 
 -- 출판사 정보 테이블
 CREATE TABLE publishers (
