@@ -21,6 +21,8 @@ CREATE TABLE Customers (
     Customerscol VARCHAR(45)															join_date DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+
+
 -- 도서 정보 테이블
 CREATE TABLE books (
     book_id INT PRIMARY KEY AUTO_INCREMENT,
