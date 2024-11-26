@@ -24,6 +24,7 @@ CREATE TABLE Customers (
 
 
 
+
 -- 도서 정보 테이블
 CREATE TABLE books (
     book_id INT PRIMARY KEY AUTO_INCREMENT,
